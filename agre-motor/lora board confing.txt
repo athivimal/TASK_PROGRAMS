@@ -1,0 +1,85 @@
+HEAD BIN: 11000000 192 C0
+ 
+AddH BIN: 0
+AddL BIN: 0
+Chan BIN: 23 -> 433MHz
+ 
+SpeedParityBit BIN    : 0 -> 8N1 (Default)
+SpeedUARTDataRate BIN : 11 -> 9600bps (default)
+SpeedAirDataRate BIN  : 10 -> 2.4kbps (default)
+OptionTrans BIN       : 0 -> Transparent transmission (default)
+OptionPullup BIN      : 1 -> TXD, RXD, AUX are push-pulls/pull-ups
+OptionWakeup BIN      : 0 -> 250ms (default)
+OptionFEC BIN         : 0 -> Turn off Forward Error Correction Switch
+OptionPower BIN       : 0 -> 20dBm (Default)
+----------------------------------------
+Success
+1
+----------------------------------------
+HEAD BIN: 11000011 195 C3
+Freq.: 32
+Version  : 10
+Features : 1E
+
+
+board2
+
+HEAD BIN: 11000000 192 C0
+ 
+AddH BIN: 0
+AddL BIN: 0
+Chan BIN: 23 -> 433MHz
+ 
+SpeedParityBit BIN    : 0 -> 8N1 (Default)
+SpeedUARTDataRate BIN : 11 -> 9600bps (default)
+SpeedAirDataRate BIN  : 10 -> 2.4kbps (default)
+OptionTrans BIN       : 0 -> Transparent transmission (default)
+OptionPullup BIN      : 1 -> TXD, RXD, AUX are push-pulls/pull-ups
+OptionWakeup BIN      : 0 -> 250ms (default)
+OptionFEC BIN         : 0 -> Turn off Forward Error Correction Switch
+OptionPower BIN       : 0 -> 20dBm (Default)
+----------------------------------------
+Success
+1
+----------------------------------------
+HEAD BIN: 11000011 195 C3
+Freq.: 32
+Version  : 10
+Features : 1E
+
+
+
+
+changing 
+HEAD : 11000000 192 C0
+ 
+AddH : 0
+AddL : 0
+Chan : 23 -> 433MHz
+ 
+SpeedParityBit     : 0 -> 8N1 (Default)
+SpeedUARTDatte  : 11 -> 9600bps (default)
+SpeedAirDataRate   : 10 -> 2.4kbps (default)
+OptionTrans        : 0 -> Transparent transmission (default)
+OptionPullup       : 1 -> TXD, RXD, AUX are push-pulls/pull-ups
+OptionWakeup       : 0 -> 250ms (default)
+OptionFEC          : 0 -> Turn off Forward Error Correction Switch
+OptionPower        : 0 -> 20dBm (Default)
+----------------------------------------
+Success
+1
+----------------------------------------
+HEAD : 11000000 192 C0
+ 
+AddH : 1
+AddL : 0
+Chan : 25 -> 435MHz
+ 
+SpeedParityBit     : 0 -> 8N1 (Default)
+SpeedUARTDatte  : 111 -> 115200bps
+SpeedAirDataRate   : 11 -> 4.8kbps
+OptionTrans        : 0 -> Transparent transmission (default)
+OptionPullup       : 1 -> TXD, RXD, AUX are push-pulls/pull-ups
+OptionWakeup       : 100 -> 1250ms
+OptionFEC          : 0 -> Turn off Forward Error Correction Switch
+OptionPower        : 1 -> 17dBm
